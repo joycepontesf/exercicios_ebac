@@ -4,23 +4,23 @@ Neste repositório você irá encontrar todos os exercícios desenvolvidos duran
 
 
 
-ÍNDICE:
+✏️ ÍNDICE:
 
-Módulo 1: O profissional de Qualidade e suas habilidades
+✅ Módulo 1: O profissional de Qualidade e suas habilidades
 
-Módulo 2: Qualidade de Software e Network
+✅ Módulo 2: Qualidade de Software e Network
 
-Módulo 3: Fundamentos de teste
+✅ Módulo 3: Fundamentos de teste
 
-Módulo 4: Técnicas de testes
+✅ Módulo 4: Técnicas de testes
 
-Módulo 5: Planejamento e estratégia de teste
+✅ Módulo 5: Planejamento e estratégia de teste
 
-Módulo 6: Metodologias ágeis e Teste ágil
+✅ Módulo 6: Metodologias ágeis e Teste ágil
 
-Módulo 7: Fluxo de trabalho do ágil
+✅ Módulo 7: Fluxo de trabalho do ágil
 
-Módulo 8: Técnicas de teste Ágil
+✅ Módulo 8: Técnicas de teste Ágil
 
 Módulo 9: Testes de UI (user interface)
 
