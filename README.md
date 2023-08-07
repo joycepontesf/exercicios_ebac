@@ -5,6 +5,7 @@ Neste repositório você irá encontrar todos os exercícios desenvolvidos duran
 ÍNDICE:
 
 Módulo 1: O profissional de Qualidade e suas habilidades
+
 Módulo 2: Qualidade de Software e Network
 Módulo 3: Fundamentos de teste
 Módulo 4: Técnicas de testes
