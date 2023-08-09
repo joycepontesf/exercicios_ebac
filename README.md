@@ -1,6 +1,6 @@
 # exercicios_ebac
 
-Neste repositório você irá encontrar todos os exercícios desenvolvidos durante a formação Engenheiro de Qualidade de Software pela da EBAC - Escola Britância de Artes Criativas e Tecnologia.
+Neste repositório você irá encontrar todos os exercícios desenvolvidos durante a formação Engenheiro de Qualidade de Software pela EBAC - Escola Britância de Artes Criativas e Tecnologia.
 
 
 
