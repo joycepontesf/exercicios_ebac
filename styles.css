@@ -1,0 +1,42 @@
+h1{
+    color: rgb(255, 255, 255);
+    background-color: dimgray;
+}
+a:link, a:visited{
+    color: brown;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#wrap{
+    width: 1050px;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+#form{
+    background: olive;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header nav ul li a{
+
+    margin-right: 10px;
+}
+
+#content{
+    float: left
+}
+
+footer{
+    margin-top: 25%;
+    background: grey;
+    clear: both;
+}
