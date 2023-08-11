@@ -22,7 +22,7 @@
                         Então o sistema deve exibir a mensagem "Preencha todos os campos marcados com asterisco"
 
                         Esquema do Cenário: Não deve permitir campo e-mail com formato inválido. Sistema deve inserir uma mensagem de erro
-                        Quando eu inserir <email>
+                        Quando eu inserir <email_2>
                         Então o sistema deve exibir a mensagem <mensagem>
 
                         Exemplos:
