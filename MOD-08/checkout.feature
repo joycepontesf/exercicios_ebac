@@ -9,12 +9,12 @@
                         Contexto: Dado que eu esteja na tela de cadastro para fazer meu registro
 
                         Esquema do Cenário: Deve ser cadastrado com todos os dados obrigatórios, marcado com asteriscos
-                        Quando preencho todos os campos obrigatórios como <nome> <email> <CPF> <telefone> <endereco> <cidade> e <cep>
+                        Quando preencho todos os campos obrigatórios como <nome> <email_1> <CPF> <telefone> <endereco> <cidade> e <cep>
                         Então o sistema deverá autenticar meu acesso e me redirecionar para a página de checkout
 
                         Exemplos:
 
-                        | nome          | email                 | CPF            | telefone          | endereco           | cidade | cep       |
+                        | nome          | email_1               | CPF            | telefone          | endereco           | cidade | cep       |
                         | João da Silva | joaodasilva@gmail.com | 023.677.895-09 | +55 85 99995-3088 | Rua das Moças, 011 | Recife | 52051-035 |
 
                         Cenário: Ao tentar cadastrar com campos vazios, deve exibir mensagem de alerta.
@@ -27,7 +27,7 @@
 
                         Exemplos:
 
-                        | email                 | mensagem                                                       |
+                        | email_2               | mensagem                                                       |
                         | joaodasilva@gmail.com | "E-mail válido"                                                |
                         | joaodasilva@gmail.123 | "Este endereço de e-mail parece ser inválido, tente novamente" |
 
