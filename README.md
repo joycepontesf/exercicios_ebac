@@ -8,7 +8,7 @@
 ## Sobre mim
 Sou uma pessoa com um pensamento voltado para o desenvolvimento de soluções que geram valor. Estou sempre atenta às necessidades dos clientes e focada nos detalhes, graças à minha formação em Gestão de Experiência do Cliente. Tenho uma paixão por auxiliar outras pessoas na resolução de seus problemas e sou uma grande entusiasta do trabalho em equipe.
 
-Obtive minha especialização na Escola Superior de Propaganda e Marketing da Universidade de São Paulo. Além disso, acumulei mais de 9 anos de experiência profissional dedicados à construção de relacionamentos entre marcas e seus clientes, por meio da minha participação em equipes de Suporte, Customer Success e Customer Experience em empresas dos setores de Educação, Telefonia, Consultoria e Startups com foco em recorrência financeira.
+Obtive minha especialização na Escola Superior de Propaganda e Marketing (ESPM) em São Paulo. Além disso, acumulei mais de 9 anos de experiência profissional dedicados à construção de relacionamentos entre marcas e seus clientes, por meio da minha participação em equipes de Suporte, Customer Success e Customer Experience em empresas dos setores de Educação, Telefonia, Consultoria e Startups com foco em recorrência financeira.
 
 Atualmente carrego toda essa bagagem enquanto me desenvolvo na área de Qualidade de Software (QA). Estou aprofundando meus estudos e conhecimentos por meio da formação em Engenheiro de Qualidade da EBAC, além de participar de outros cursos online e testar aplicações web/mobile criadas para fins de aprendizado.
 
