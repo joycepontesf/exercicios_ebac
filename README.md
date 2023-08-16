@@ -1,30 +1,58 @@
-# exercicios_ebac
+# Portfolio
 
-Neste repositório você irá encontrar todos os exercícios desenvolvidos durante a formação Engenheiro de Qualidade de Software pela EBAC - Escola Britância de Artes Criativas e Tecnologia.
+- [Sobre mim](#sobre-mim)
+- [Habilidades](#habilidades-desenvolvidas)
+- [Índice dos módulos](#índice-dos-módulos)
+- [Contato](#contato)
 
+## Sobre mim
+Sou uma pessoa com um pensamento voltado para o desenvolvimento de soluções que geram valor. Estou sempre atenta às necessidades dos clientes e focada nos detalhes, graças à minha formação em Gestão de Experiência do Cliente. Tenho uma paixão por auxiliar outras pessoas na resolução de seus problemas e sou uma grande entusiasta do trabalho em equipe.
 
+Obtive minha especialização na Escola Superior de Propaganda e Marketing da Universidade de São Paulo. Além disso, acumulei mais de 9 anos de experiência profissional dedicados à construção de relacionamentos entre marcas e seus clientes, por meio da minha participação em equipes de Suporte, Customer Success e Customer Experience em empresas dos setores de Educação, Telefonia, Consultoria e Startups com foco em recorrência financeira.
 
-✏️ ÍNDICE:
+Atualmente carrego toda essa bagagem enquanto me desenvolvo na área de Qualidade de Software (QA). Estou aprofundando meus estudos e conhecimentos por meio da formação em Engenheiro de Qualidade da EBAC, além de participar de outros cursos online e testar aplicações web/mobile criadas para fins de aprendizado.
 
-✅ Módulo 1: O profissional de Qualidade e suas habilidades
+Será um prazer aplicar os conhecimentos adquiridos para auxiliar o seu negócio na criação de sistemas cada vez mais robustos e que agreguem valor ao usuário.
 
-✅ Módulo 2: Qualidade de Software e Network
+## Habilidades desenvolvidas
+*Você poderá visualizar exemplos das habilidades mencionadas na seção **[Índice dos módulos](#índice-dos-módulos)***
 
-✅ Módulo 3: Fundamentos de teste
+- __Trello__
 
-✅ Módulo 4: Técnicas de testes
+- __BDD__
 
-✅ Módulo 5: Planejamento e estratégia de teste
+- __Gherkin__
 
-✅ Módulo 6: Metodologias ágeis e Teste ágil
+- __Git & GitHub__
 
-✅ Módulo 7: Fluxo de trabalho do ágil
+- __Ferramentas do Desenvolvedor__
 
-✅ Módulo 8: Técnicas de teste Ágil
+- __Cypress__
+- __Histórias de Usuários__
+- __Metodologias Ágeis (Scrum, Kanban)__
 
-Módulo 9: Testes de UI (user interface)
+## Índice dos módulos
+*Abaixo você será capaz de identificar o tema geral de cada módulo da formação em Engenheiro de Qualidade da EBAC e acessar a pasta desejada, sendo possível visualizar o resultado prático de cada etapa.*
 
-Módulo 10: GIT
+[Módulo 1:](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-01) Profissional de Qualidade e suas habilidades
+
+[Módulo 2:](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-02) Qualidade de Software
+
+[Módulo 3:](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-03) Fundamentos de teste
+
+[Módulo 4:](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-04) Técnicas de teste
+
+[Módulo 5:](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-05) Planejamento e estratégia de teste
+
+[Módulo 6:](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-06) Metodologias ágeis e Teste Ágil
+
+[Módulo 7:](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-07) Fluxo de trabalho do Ágil
+
+[Módulo 8:](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-08) Técnicas de Teste Ágil
+
+[Módulo 9:](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-09) Testes de UI
+
+[Módulo 10:](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-10) GIT & GitHub
 
 Módulo 11: Automação de UI com Cypress - Parte 1
 
@@ -73,3 +101,6 @@ Módulo 32: Banco de dados SQL/noSQL
 Módulo 33: Testes de Segurança
 
 Módulo 34: Projeto Final
+
+## Contato
+Vamos nos conectar? Você pode marcar uma conversa comigo usando meu link do [Calendly](https://calendly.com/joycepontesf/cafezinho?month=2023-08).
