@@ -1,0 +1,18 @@
+Dados do aluno
+
+-Primeiro Nome: Joyce
+-Profissão: Head de CX
+-Cidade: Recife
+-O que faz nas horas vaga: brinco com meu cachorro e assisto futebol, NBA, vôlei, tênis, esportes no geral
+-Feedback sobre o curso Qualidade de Software: tenho sentido um grande avanço nas minhas soft e hard skills a partir do que venho aprendendo no curso. A didática e materiais são muito bons para ajudar o aluno a avançar na formação.
+-Feedback sobre a plataforma de estudo da EBAC: bem intuitiva, visual clean. Algumas sugestões seriam: 
+
+Como usuária da plataforma de estudo da EBAC
+Quero configurar um cronograma das minhas aulas 
+Para conseguir visualizar no calendário já disponível
+
+Como usuária da plataforma de estudo da EBAC
+Quero que o sistema armazene a configuração de velocidade de reprodução dos vídeos
+Para que eu não precise fazer essa configuração a cada novo vídeo reproduzido
+
+Obrigado!!!
