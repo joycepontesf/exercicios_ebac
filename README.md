@@ -1,7 +1,7 @@
 # Portfolio
 
 - [Sobre mim](#sobre-mim)
-- [Habilidades](#habilidades-desenvolvidas)
+- [Habilidades](#habilidades)
 - [Índice dos módulos](#índice-dos-módulos)
 - [Contato](#contato)
 
@@ -14,7 +14,7 @@ Atualmente carrego toda essa bagagem enquanto me desenvolvo na área de Qualidad
 
 Será um prazer aplicar os conhecimentos adquiridos para auxiliar o seu negócio na criação de sistemas cada vez mais robustos e que agreguem valor ao usuário.
 
-## Habilidades desenvolvidas
+## Habilidades
 *Você poderá visualizar exemplos das habilidades mencionadas na seção **[Índice dos módulos](#índice-dos-módulos)***
 
 - __Trello__
