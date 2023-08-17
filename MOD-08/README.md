@@ -9,4 +9,4 @@ Após estudar sobre Pirâmide de Testes, BDD (Behavior-Driven Development), Gher
 __Nesta pasta você encontrará:__
 
 1. As diretrizes para execução do exercício
-2. Arquivos contendo os critérios de aceitação em Gherkin de cada funcionalidade solicitada
+2. Arquivos contendo os critérios de aceitação em Gherkin das funcionalidades de Checkout, Login e Produto
