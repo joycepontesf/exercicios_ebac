@@ -1,17 +1,13 @@
-# Dados aluno
-Faça a edição dos dados do arquivo dados.txt. 
-Fique a vontade se não quiser responder todos os itens. 
+## Sobre o Módulo 10
 
-### Instruções: 
+Após estudar sobre Git e seus comandos de Pull, Push, Clone e Commit, como atividade da formação em Engenheiro de Qualidade de Software da [EBAC (Escola Britânica de Artes Criativas e Tecnologia)](https://ebaconline.com.br/engenheiro-de-qualidade), executei os seguintes passos:
 
--Faça um clone deste repositório em sua máquina;
+* Usei a função "Fork" do GitHub para clonar um repositório
+* Dei o comando pull para puxar os arquivos atualizados para o repositório local
+* Alterei o arquivo "Dados" com as informações pedidas
+* Fiz o commit e push no meu repositório GitHub
+  
+__Nesta pasta você encontrará:__
 
--Edite o arquivo dados.txt;
-
--Crie um repositório no github com o nome aula-git-ebac;
-
--Faça o commit em seu repositório do github;
-
--No commit coloque a mensagem: “Modificando o arquivo de dados”.
-
--Compertilhe seu github conosco em nossa plataforma;
+1. As diretrizes para execução do exercício
+2. Arquivo "Dados.txt" contendo as alteracões
