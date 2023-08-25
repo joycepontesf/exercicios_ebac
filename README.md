@@ -34,27 +34,27 @@ Será um prazer aplicar os conhecimentos adquiridos para auxiliar o seu negócio
 ## Índice dos módulos
 *Abaixo você será capaz de identificar o tema geral de cada módulo da formação em Engenheiro de Qualidade da EBAC e acessar a pasta desejada, sendo possível visualizar o resultado prático de cada etapa.*
 
-[Módulo 1:](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-01) Profissional de Qualidade e suas habilidades
+[Módulo 1: Profissional de Qualidade e suas habilidades](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-01)
 
-[Módulo 2:](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-02) Qualidade de Software
+[Módulo 2: Qualidade de Software](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-02)
 
-[Módulo 3:](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-03) Fundamentos de teste
+[Módulo 3: Fundamentos de Teste](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-03)
 
-[Módulo 4:](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-04) Técnicas de teste
+[Módulo 4: Técnicas de Teste](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-04)
 
-[Módulo 5:](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-05) Planejamento e estratégia de teste
+[Módulo 5: Planejamento e Estratégia de Teste](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-05)
 
-[Módulo 6:](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-06) Metodologias ágeis e Teste Ágil
+[Módulo 6: Metodologias Ágeis e Teste Ágil](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-06)
 
-[Módulo 7:](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-07) Fluxo de trabalho do Ágil
+[Módulo 7: Fluxo de Trabalho do Ágil](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-07)
 
-[Módulo 8:](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-08) Técnicas de Teste Ágil
+[Módulo 8: Técnicas de Teste Ágil](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-08)
 
-[Módulo 9:](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-09) Testes de UI
+[Módulo 9: Testes de UI](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-09)
 
-[Módulo 10:](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-10) GIT & GitHub
+[Módulo 10: GIT & GitHub](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-10)
 
-Módulo 11: Automação de UI com Cypress - Parte 1
+[Módulo 11: Automação de UI com Cypress - Parte 1](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-11)
 
 Módulo 12: Automação de UI com Cypress - Parte 2
 
