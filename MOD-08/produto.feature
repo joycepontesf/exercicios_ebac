@@ -14,7 +14,7 @@
             E exibir a mensagem "Você não possui itens no carrinho"
 
             Esquema do Cenário: Deve permitir apenas 10 produtos por venda
-            Dado que eu selecione <qtd_produto> de um item
+            Dado que eu selecione <qtd_produtos> de um item
             Quando clicar em adicionar o produto ao carrinho
             Então o sistema deve exibir a crítica <mensagem_1>
 
