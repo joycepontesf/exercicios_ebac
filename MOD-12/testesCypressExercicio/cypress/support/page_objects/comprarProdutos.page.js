@@ -11,7 +11,7 @@ class comprarProdutos {
         cy.get('#billing_city').type("Recife")
         cy.get('#select2-billing_state-container').click().type('Pernambuco').get('[aria-selected="true"]').click()
         cy.get('#billing_postcode').type("52051-500")
-        cy.get('#billing_phone').type(81999990000)
+        cy.get('#billing_phone').type("8199999000")
         cy.get('#billing_email').type(faker.internet.email())
         cy.get('#payment_method_cod').click()
         cy.get('#terms').click()
@@ -41,6 +41,5 @@ class comprarProdutos {
         cy.get('.woocommerce-notice').should("contain", "Obrigado. Seu pedido foi recebido.")
         
     }
-
 }
 export default new comprarProdutos()
