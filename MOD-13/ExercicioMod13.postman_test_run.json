@@ -1,0 +1,245 @@
+{
+	"id": "1b6447f7-21c7-4060-b15e-5aa12fb4f8a2",
+	"name": "ExercicioMod13",
+	"timestamp": "2023-09-13T23:38:18.459Z",
+	"collection_id": "29693259-918d5b5d-307d-43d7-96c6-8440faec7ac2",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 8,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-09-13T23:38:18.210Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "568878d6-fa0e-41e8-82cb-8b3268c5b28a",
+			"name": "Cadastro de novo usuário",
+			"url": "http://localhost:3000/usuarios",
+			"time": 7,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"O status do código é 201": true
+			},
+			"testPassFailCounts": {
+				"O status do código é 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				7
+			],
+			"allTests": [
+				{
+					"O status do código é 201": true
+				}
+			]
+		},
+		{
+			"id": "6b6592b6-2428-4ab3-b11a-25522938d474",
+			"name": "Buscar por novo usuário",
+			"url": "http://localhost:3000/usuarios/UrvCWSCUFhho8U2K",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"O status do código é 200": true
+			},
+			"testPassFailCounts": {
+				"O status do código é 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"O status do código é 200": true
+				}
+			]
+		},
+		{
+			"id": "760528b2-0c2a-4993-87ef-e131fa9f1ec0",
+			"name": "Editar novo usuário",
+			"url": "http://localhost:3000/usuarios/UrvCWSCUFhho8U2K",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"O status do código é 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"O status do código é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"O status do código é 200": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "0dc160a3-dccc-4224-b20b-5fdf376b2072",
+			"name": "Deletar novo usuário",
+			"url": "http://localhost:3000/usuarios/UrvCWSCUFhho8U2K",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "12232724-6a4b-4a74-804a-1dbfaf142e55",
+			"name": "Cadastro de novo usuário já em uso",
+			"url": "http://localhost:3000/usuarios",
+			"time": 2,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "11458206-9e36-4fb4-97ed-66f3bc6456ab",
+			"name": "Busca de usuário inexistente",
+			"url": "http://localhost:3000/usuarios/ChSqKlT4lYHCZQbj",
+			"time": 2,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "1d502b2c-4d2c-4b9b-b2aa-996a21cc14c3",
+			"name": "Editar usuário existente resulta em cadastro de novo usuário",
+			"url": "http://localhost:3000/usuarios/UrvCWSCUFhho8U2K",
+			"time": 3,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Body matches string": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 23,
+	"collection": {
+		"requests": [
+			{
+				"id": "568878d6-fa0e-41e8-82cb-8b3268c5b28a",
+				"method": "POST"
+			},
+			{
+				"id": "6b6592b6-2428-4ab3-b11a-25522938d474",
+				"method": "GET"
+			},
+			{
+				"id": "760528b2-0c2a-4993-87ef-e131fa9f1ec0",
+				"method": "PUT"
+			},
+			{
+				"id": "0dc160a3-dccc-4224-b20b-5fdf376b2072",
+				"method": "DELETE"
+			},
+			{
+				"id": "12232724-6a4b-4a74-804a-1dbfaf142e55",
+				"method": "POST"
+			},
+			{
+				"id": "11458206-9e36-4fb4-97ed-66f3bc6456ab",
+				"method": "GET"
+			},
+			{
+				"id": "1d502b2c-4d2c-4b9b-b2aa-996a21cc14c3",
+				"method": "PUT"
+			}
+		]
+	}
+}

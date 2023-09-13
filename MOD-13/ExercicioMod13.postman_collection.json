@@ -8,36 +8,271 @@
 	},
 	"item": [
 		{
-			"name": "Cadastro de novo usuário",
-			"request": {
-				"method": "POST",
-				"header": []
-			},
-			"response": []
+			"name": "Cenários positivos",
+			"item": [
+				{
+					"name": "Cadastro de novo usuário",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"O status do código é 201\", function () {",
+									"    pm.response.to.have.status(201);",
+									"});",
+									"",
+									"pm.globals.set(\"id_novo_usuario\", pm.response.json()._id);",
+									"console.log(\"id_novo_usuario\")"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"nome\": \"Marcos Assumpção\",\n  \"email\": \"teste123@gmail.com\",\n  \"password\": \"teste@123\",\n  \"administrador\": \"true\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{local}}/usuarios",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"usuarios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar por novo usuário",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"O status do código é 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{local}}/usuarios/{{id_novo_usuario}}",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"usuarios",
+								"{{id_novo_usuario}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Editar novo usuário",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"O status do código é 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"pm.test(\"Body matches string\", function () {",
+									"    pm.expect(pm.response.text()).to.include(\"Registro alterado com sucesso\");",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"nome\": \"Marcos Assunção\",\n  \"email\": \"teste123@gmail.com\",\n  \"password\": \"teste\",\n  \"administrador\": \"true\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{local}}/usuarios/{{id_novo_usuario}}",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"usuarios",
+								"{{id_novo_usuario}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Deletar novo usuário",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Body matches string\", function () {",
+									"    pm.expect(pm.response.text()).to.include(\"Registro excluído com sucesso\");",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{local}}/usuarios/{{id_novo_usuario}}",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"usuarios",
+								"{{id_novo_usuario}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
 		},
 		{
-			"name": "Editar novo usuário",
-			"request": {
-				"method": "PUT",
-				"header": []
-			},
-			"response": []
-		},
-		{
-			"name": "Buscar por novo usuário",
-			"request": {
-				"method": "GET",
-				"header": []
-			},
-			"response": []
-		},
-		{
-			"name": "Deleter novo usuário",
-			"request": {
-				"method": "DELETE",
-				"header": []
-			},
-			"response": []
+			"name": "Cenários negativos",
+			"item": [
+				{
+					"name": "Cadastro de novo usuário já em uso",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Body matches string\", function () {",
+									"    pm.expect(pm.response.text()).to.include(\"Este email já está sendo usado\");",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"nome\": \"Marcos Assumpção\",\n  \"email\": \"123testeqa@gmail.com\",\n  \"password\": \"teste@123\",\n  \"administrador\": \"true\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{local}}/usuarios",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"usuarios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Busca de usuário inexistente",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Body matches string\", function () {",
+									"    pm.expect(pm.response.text()).to.include(\"Usuário não encontrado\");",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{local}}/usuarios/ChSqKlT4lYHCZQbj",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"usuarios",
+								"ChSqKlT4lYHCZQbj"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Editar usuário existente resulta em cadastro de novo usuário",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Body matches string\", function () {",
+									"    pm.expect(pm.response.text()).to.include(\"Cadastro realizado com sucesso\");",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"nome\": \"Usuário de Teste\",\n  \"email\": \"marilia_vasconcelos@qa.com\",\n  \"password\": \"12345@7\",\n  \"administrador\": \"true\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{local}}/usuarios/{{id_novo_usuario}}",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"usuarios",
+								"{{id_novo_usuario}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
 		}
 	]
 }
