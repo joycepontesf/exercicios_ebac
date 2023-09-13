@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "918d5b5d-307d-43d7-96c6-8440faec7ac2",
+		"name": "ExercicioMod13",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29693259",
+		"_collection_link": "https://www.postman.com/material-specialist-43979641/workspace/ebac/collection/29693259-918d5b5d-307d-43d7-96c6-8440faec7ac2?action=share&source=collection_link&creator=29693259"
+	},
+	"item": [
+		{
+			"name": "Cadastro de novo usuário",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Editar novo usuário",
+			"request": {
+				"method": "PUT",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar por novo usuário",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Deleter novo usuário",
+			"request": {
+				"method": "DELETE",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
