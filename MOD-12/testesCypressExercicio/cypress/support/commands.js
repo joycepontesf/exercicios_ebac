@@ -31,7 +31,8 @@ Cypress.Commands.add('login', (usuario, senha) => {
     cy.get('.woocommerce-form > .button').click()
 });
 
-Cypress.Commands.add('addProdutosCT01', (produto1, tamanho1, cor1, produto2, tamanho2, cor2, produto3, tamanho3, cor3, produto4, tamanho4, cor4) => {
+Cypress.Commands.add('addProdutos', (produto1, tamanho1, cor1, produto2, tamanho2, cor2, produto3, tamanho3, cor3, produto4, tamanho4, cor4) => {
+    cy.get('#primary-menu > .menu-item-629 > a').click()
     cy.get('[class="product-block grid"]')
         .contains(produto1).click()
     cy.get('.woocommerce-product-gallery').should("be.visible")
@@ -60,41 +61,5 @@ Cypress.Commands.add('addProdutosCT01', (produto1, tamanho1, cor1, produto2, tam
     cy.get('.single_add_to_cart_button').click()
     cy.get('.woocommerce-message > .button').click()
     cy.get('.checkout-button').click()
-
-})
-
-Cypress.Commands.add('addProdutosCT02', (produto1, tamanho1, cor1, produto2, tamanho2, cor2, produto3, tamanho3, cor3, produto4, tamanho4, cor4) => {
-    cy.get('[class="product-block grid"]')
-        .contains(produto1).click()
-    cy.get('.woocommerce-product-gallery').should("be.visible")
-    cy.get('.button-variable-item-' + tamanho1).click()
-    cy.get('.button-variable-item-' + cor1).click()
-    cy.get('.single_add_to_cart_button').click()
-    cy.get('#primary-menu > .menu-item-629 > a').click()
-    cy.get('[class="product-block grid"]')
-        .contains(produto2).click()
-    cy.get('.button-variable-item-' + tamanho2).click()
-    cy.get('.button-variable-item-' + cor2).click()
-    cy.get('.single_add_to_cart_button').click()
-    cy.get('#primary-menu > .menu-item-629 > a').click()
-    cy.get(':nth-child(2) > .page-numbers').click()
-    cy.get('[class="product-block grid"]')
-        .contains(produto3).click()
-    cy.get('.button-variable-item-' + tamanho3).click()
-    cy.get('.button-variable-item-' + cor3).click()
-    cy.get('.single_add_to_cart_button').click()
-    cy.get('#primary-menu > .menu-item-629 > a').click()
-    cy.get(':nth-child(2) > .page-numbers').click()
-    cy.get('[class="product-block grid"]')
-        .contains(produto4).click()
-    cy.get('.button-variable-item-' + tamanho4).click()
-    cy.get('.button-variable-item-' + cor4).click()
-    cy.get('.single_add_to_cart_button').click()
-    cy.get('.woocommerce-message > .button').click()
-    cy.get('.checkout-button').click()
-    cy.get('tbody > :nth-child(1) > .product-name').should("contain", produto1)
-    cy.get('tbody > :nth-child(2) > .product-name').should("contain", produto2)
-    cy.get(':nth-child(3) > .product-name').should("contain", produto3)
-    cy.get(':nth-child(4) > .product-name').should("contain", produto4)
 
 })
