@@ -19,6 +19,8 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
         })
     });
 
+/* No teste abaixo foi desenvolvido um script de execução com uso de comandos customizados, page objects, faker,  fixtures e criação de variáveis para otimização do teste e facilitar a manutenção do código. O objetivo é a 1) realização de um login válido, 2) inclusão do total de itens descritos na história de uso, 3) preenchimento de dados randomicos e ficticios no formulário de checkout e 4) validação da página de compra realizada com sucesso e quantidade de itens contidos no carrinho. */
+
     it('Deve fazer pedido ponta a ponta na loja Ebac Shop', () => {
 
         let produto1 = "Atlas Fitness Tank"
