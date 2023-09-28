@@ -45,7 +45,7 @@ A formação foi dividida em 33 módulos, contendo um projeto de conclusão de c
 
 <code>[Módulo 13: Testes de API e Contrato](https://github.com/joycepontesf/exercicios_ebac/tree/main/MOD-13)</code>
 
-<code>Módulo 14: Testes Automatizados de API REST</code>
+<code>[Módulo 14: Testes Automatizados de API REST](https://github.com/joycepontesf/exercicios_ebac/tree/main/mod-14/testes-api-cy)</code>
 
 <code>Módulo 15: DevOps</code>
 
