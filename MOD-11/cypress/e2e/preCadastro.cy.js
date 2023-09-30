@@ -1,17 +1,13 @@
-/// <reference types="Cypress" />
+/// <reference types="cypress" />
 
 const { faker } = require('@faker-js/faker');
 
 context('Cadastro de novo usuário', () => {
     
     beforeEach(() => {
-        cy.visit("http://lojaebac.ebaconline.art.br/minha-conta/")
+        cy.visit("minha-conta")
     });
 
-    afterEach(() => {
-        cy.screenshot()
-    });
-    
     it('Deve criar um novo usuário e alterar seus dados com sucesso', () => {
         cy.get('#reg_email').type(faker.internet.email())
         cy.get('#reg_password').type(faker.internet.password())
