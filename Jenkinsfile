@@ -11,22 +11,14 @@ pipeline {
         
         stage('Instalação de dependências') {
             steps {
-               script {
-                   dir('exercicios_ebac/mod-11') {
-                       sh 'npm install'
+                       sh 'cd mod-11 && npm install'
                    }
                }
-            }
-        }
         
         stage('Execução do Teste') {
             steps {
-                script {
-                    dir('exercicios_ebac/mod-11') {
-                        sh 'NO_COLOR=1 npm run cy:run'
+                        sh 'cd mod-11 && NO_COLOR=1 npm run cy:run'
                     }
                 }
-            }
         }
     }
-}
