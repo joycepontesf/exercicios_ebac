@@ -9,7 +9,7 @@
     "cy:run": "npx cypress run --browser chrome",
     "cy:report": "npx mochawesome-merge ./mochawesome-report/mochawesome*.json  > mochawesome-report/report.json && npx marge mochawesome-report/report.json",
     "cy:open": "npx cypress open",
-    "cy:run-ci": "start-server-and-test http://localhost:3000/ test"
+    "cy:run-ci": "start-server-and-test http://localhost:3000/ cy:run"
   },
   "keywords": [],
   "author": "",
