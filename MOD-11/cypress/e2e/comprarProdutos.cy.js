@@ -6,10 +6,6 @@ context('Adicionar produtos no carrinho', () => {
         cy.visit("produtos")
     });
 
-    afterEach(() => {
-        cy.screenshot()
-    });
-
     it('Deve adicionar um produto no carrinho', () => {
 
         var quantidade = 3

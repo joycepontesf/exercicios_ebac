@@ -6,11 +6,6 @@ context('Funcionalidade de Login', () => {
         cy.visit("minha-conta")
     });
 
-    afterEach(() => {
-        cy.screenshot()
-        
-    });
-
     it('Deve fazer login bem sucedido', () => {
         cy.login_sucesso("aluno_ebac@teste.com", "teste@teste.com")
 
