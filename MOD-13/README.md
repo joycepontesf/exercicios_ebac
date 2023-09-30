@@ -10,4 +10,4 @@ Após iniciar os estudos sobre Testes de API e Contrato, como atividade da forma
 __Nesta pasta você encontrará:__
 
 1. As diretrizes para execução do exercício
-2. Arquivos com collections e resultado dos testes executados
+2. Arquivos com collections e o resultado dos testes executados
