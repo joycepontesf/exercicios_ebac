@@ -11,7 +11,7 @@ pipeline {
         
         stage('Instalação de dependências') {
             steps {
-                       sh 'cd mod-11 && npm install'
+                       sh 'cd mod11 && npm install'
                    }
                }
         
