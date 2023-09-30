@@ -11,13 +11,21 @@ pipeline {
         
         stage('Instalação de dependências') {
             steps {
-               sh 'cd mod-11 && npm install'
+               script {
+                   dir('mod-11') {
+                       sh 'npm install'
+                   }
+               }
             }
         }
         
         stage('Execução do Teste') {
             steps {
-                sh 'NO_COLOR=1 npm run cy:run'
+                script {
+                    dir('mod-11') {
+                        sh 'NO_COLOR=1 npm run cy:run'
+                    }
+                }
             }
         }
     }
